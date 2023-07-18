@@ -8,15 +8,15 @@ public class reversethreedigitnumber {
 		// TODO Auto-generated method stub
 Scanner  sc=new Scanner (System.in);
 System.out.print("Enter the three digit number");
-int n = sc.nextInt();
-int d1 = n%10;
-int d2 = n%10;
-int d3 = n/100;
-int re = d1*100+d2*10+d3;
-int sum= n+re;
+int no = sc.nextInt();
+int dg1 = no%10;
+int dg2 = no%10;
+int dg3 = no/100;
+int reverse = dg1*100+dg2*10+dg3;
+int sum= no+reverse;
 System.out.println("the sum of number and Reverse is" +sum);
 System.out.println("the sum of digit is" +sum);
-System.out.println("the reverse digit is" +re);
+System.out.println("the reverse digit is" +reverse);
 
 	}
 

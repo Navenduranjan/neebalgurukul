@@ -24,7 +24,12 @@ am =am%20;
 int ten = am/10;
 am =am%10;
 System.out.println(twoth + " * 2000 = " + twoth*2000);
-
+System.out.println(fiveh + "500=" +fiveh*500);
+System.out.println(twoh + "200=" + twoh*200);
+System.out.println(oneh +"100=" +oneh*100);
+System.out.println(fifty + "50=" +fifty*50);
+System.out.println(twenty +"20=" +twenty*20);
+System.out.println(ten +"10=" +ten*10);
 
 
 		
